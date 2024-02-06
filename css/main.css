@@ -531,7 +531,7 @@ a {
 }
 @media (max-width: 576px) {
   .base-card {
-    padding: 0;
+    padding: 10px 10px;
   }
 }
 .base-card__title {
@@ -593,6 +593,11 @@ a {
   flex-direction: column;
   height: 88px;
   row-gap: 33px;
+}
+@media (max-width: 576px) {
+  .base-card__churt {
+    height: 180px;
+  }
 }
 .base-card__item {
   margin-bottom: 43px;
@@ -667,6 +672,7 @@ a {
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+    bottom: 40px;
   }
 }
 
