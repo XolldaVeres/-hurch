@@ -1473,6 +1473,11 @@ a {
     padding-top: 40px;
   }
 }
+@media (max-width: 576px) {
+  .grow__title {
+    text-align: center;
+  }
+}
 .grow__text {
   margin: 0;
   margin-bottom: 53px;
@@ -1493,6 +1498,11 @@ a {
 @media (max-width: 768px) {
   .grow__text {
     padding-right: 0;
+  }
+}
+@media (max-width: 576px) {
+  .grow__text {
+    text-align: center;
   }
 }
 
@@ -1585,6 +1595,7 @@ a {
 @media (max-width: 576px) {
   .device__title {
     padding-right: 0;
+    text-align: center;
   }
 }
 .device__text {
@@ -1596,6 +1607,11 @@ a {
   font-weight: 400;
   line-height: 26px;
   text-align: left;
+}
+@media (max-width: 576px) {
+  .device__text {
+    text-align: center;
+  }
 }
 .device__info {
   display: -webkit-box;
@@ -1620,5 +1636,10 @@ a {
   font-weight: 400;
   line-height: 23px;
   text-align: left;
+}
+@media (max-width: 576px) {
+  .device__descr {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */
